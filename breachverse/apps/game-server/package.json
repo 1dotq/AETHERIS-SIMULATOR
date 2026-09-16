@@ -1,0 +1,22 @@
+{
+  "name": "@breachverse/game-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "start": "tsx src/main.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@breachverse/domain": "0.1.0",
+    "@breachverse/engine": "0.1.0",
+    "@breachverse/protocol": "0.1.0",
+    "@breachverse/scenarios": "0.1.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1"
+  }
+}
+
